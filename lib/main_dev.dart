@@ -1,3 +1,4 @@
+import 'package:device_preview/device_preview.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flavors_todo_app/firebase/dev/firebase_options.dart';
 import 'package:flavors_todo_app/flavors.dart';
@@ -11,5 +12,9 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptionsDev.currentPlatform,
   );
-  runApp(const MyApp());
+  runApp(
+    DevicePreview(
+      builder:(_)=> const MyApp(),
+    ),
+  );
 }
