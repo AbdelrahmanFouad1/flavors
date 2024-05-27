@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
 
-void main() {
-  runApp(const MyApp());
-}
+import 'package:flavors_todo_app/global.dart';
+import 'package:flutter/material.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -49,8 +47,8 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text(
-              'You have pushed the button this many times:',
+             Text(
+              Global.baseUrl,
             ),
             Text(
               '$_counter',
