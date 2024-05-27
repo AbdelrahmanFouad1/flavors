@@ -7,8 +7,7 @@ import 'firebase/prod/firebase_options.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Global.baseUrl = 'https://flvors-aws/prod';
-
-
+  Global.flavor = Flavor.prod;
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptionsProd.currentPlatform,

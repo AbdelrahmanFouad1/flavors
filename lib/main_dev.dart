@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   Global.baseUrl = 'https://flvors-aws/dev';
+  Global.flavor = Flavor.dev;
 
   await Firebase.initializeApp(
     options: DefaultFirebaseOptionsDev.currentPlatform,
