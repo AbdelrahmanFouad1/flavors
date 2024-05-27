@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>581885601245-g79c7mvloi5lftremmeae0l8sr6bb83p.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyArU8OBfxS4WPMe9hIzZ0PpUKD-cF5XNDY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>581885601245</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flavorsTodoApp</string>
+	<key>PROJECT_ID</key>
+	<string>fir-upload-image-51965</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-upload-image-51965.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:581885601245:ios:fa45cb71c270879a8b0234</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-upload-image-51965.firebaseio.com</string>
+</dict>
+</plist>
